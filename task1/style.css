@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;   
+}
+.img-matter{
+    color: red;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-family:cursive;
+    padding-bottom: 10px;
+}
+.para{
+    font-family:cursive;
+    color: rgba(0, 0, 255, 0.265);
+    padding-bottom: 10px;
+}
+.f-img{
+    width:100%;
+}
+.top-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3px;   
+}
+.middle-part{
+    background-color: rgba(0, 0, 0, 0.731);
+    padding: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-container{
+    padding: 10px;
+  
+}
+.card{
+    border: 1px solid white;
+    color: rgba(17, 176, 250, 0.779);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    
+    margin-bottom: 50px;
+}
+.bottom{
+    background-color: rgba(0, 0, 0, 0.731);
+    padding-top: 10px;
+}
+.list a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.part-heading,.ft-heading{
+    color: rgba(0, 0, 255, 0.877); 
+    padding-top: 15px; 
+    font-size: 20px; 
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.list{
+    margin-top: 20px;
+}
+.bottom-footer{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
